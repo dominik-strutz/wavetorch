@@ -4,7 +4,7 @@ from typing import Tuple
 import numpy as np
 import torch
 from torch.nn.functional import conv2d
-from skimage.draw import circle
+from skimage.draw import ellipse as circle
 
 from .utils import to_tensor
 
